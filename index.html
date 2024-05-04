@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,th,td{
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
     <table>
         <thead>
             <tr>
                 <th>State of health</th>
-                 <th colspan="2">Fasting Value</th>
-                 <th>After Remaining</th>
+                 <th colspan="3">Fasting Value</th>
+                 <th colspan="1">After Remaining</th>
             </tr>
         </thead>
         <tbody>
@@ -20,36 +25,35 @@
                 healthy
             </td>
             <td>
-                Pre-Diabetes
+                70
             </td>
-            <td>Diabetes</td>
+            <td>
+                100
+            </td>
+            <td>
+                Less than 140
+            </td>
          </tr>
 
          <tr>
-            <td>70</td>
+            <td>Pre-Diabetes</td>
             <td>101</td>
+            <td>126</td>
+            </td>
             <td>
-                more than 126
+                140 to 200
             </td>
          </tr>
         </tbody>
         <tr>
             <td>
-                <td>100</td>
-                <td>126</td>
+                <td>Diabetes</td>
+                <td>more than 126</td>
+                <td>Not Applicable</td>
             </td>
-                 Not Applicable
+                 More than 200
             <td>
         </tr>
-        <tbody>
-           ><tr>
-              <td>
-                <td>Less than 140</td>
-                <td>140 to 200</td>
-               <td>
-                More than 200
-               </td>
-           </tr> 
         </table>
 </body>
 </html>
